@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Yleinen &#8211; Iloiset hampaat</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description>Laadukasta perushammashoitoa Muhoksella</description>
+	<lastBuildDate>Fri, 12 Jan 2024 09:15:36 +0000</lastBuildDate>
+	<language>fi</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+	<item>
+		<title>Hei maailma!</title>
+		<link>./../../../hei-maailma/index.html</link>
+					<comments>./../../../hei-maailma/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[PauliAla2]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2024 08:57:34 +0000</pubDate>
+				<category><![CDATA[Yleinen]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=8</guid>
+
+					<description><![CDATA[Moi, moi vain!]]></description>
+										<content:encoded><![CDATA[
+<p>Moi, moi vain!</p>
+
+
+
+<figure class="wp-block-image size-full"><img fetchpriority="high" decoding="async" width="320" height="200" src="./../../../wp-content/uploads/2024/01/c64ok.jpg" alt="" class="wp-image-11"/></figure>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../hei-maailma/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Moikka maailma!</title>
+		<link>./../../../moikka-maailma/index.html</link>
+					<comments>./../../../moikka-maailma/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[PauliAla2]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2024 08:13:41 +0000</pubDate>
+				<category><![CDATA[Yleinen]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+
+					<description><![CDATA[Tervetuloa WordPressiin. Tämä on ensimmäinen artikkelisi. Muokkaa sitä tai poista se ja aloita kirjoittamaan!]]></description>
+										<content:encoded><![CDATA[
+<p>Tervetuloa WordPressiin. Tämä on ensimmäinen artikkelisi. Muokkaa sitä tai poista se ja aloita kirjoittamaan!</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../moikka-maailma/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

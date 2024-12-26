@@ -1,0 +1,177 @@
+.wb-grid-row {
+    margin: -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.single-blog {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure the column takes up 100% height */
+}
+
+.blog-content {
+    flex-grow: 1; /* Allow the content to take up remaining space */
+}
+
+/* Add the following style to ensure equal height for columns */
+.wb-grid-row > div[class^="wb-grid-desktop-"] .single-blog  {
+    flex: 1;
+}
+.wb-grid-row.align-center {
+	align-items: center;
+}
+.wb-grid-row.align-end {
+	align-items: flex-end;
+}
+
+.wb-grid-desktop-1{
+    width: 8.33%;
+    padding: 15px;
+}
+.wb-grid-desktop-2{
+    width: 16.66%;
+    padding: 15px;
+}
+.wb-grid-desktop-3{
+    width: 25%;
+    padding: 15px;
+}
+.wb-grid-desktop-4{
+    width: 33.33%;
+    padding: 15px;
+}
+.wb-grid-desktop-5{
+    width: 41.67%;
+    padding: 15px;
+}
+.wb-grid-desktop-6{
+    width: 50%;
+    padding: 15px;
+}
+.wb-grid-desktop-7{
+    width: 58.33%;
+    padding: 15px;
+}
+.wb-grid-desktop-8{
+    width: 66.67%;
+    padding: 15px;
+}
+.wb-grid-desktop-9{
+    width: 75%;
+    padding: 15px;
+}
+.wb-grid-desktop-10{
+    width: 83.33%;
+    padding: 15px;
+}
+.wb-grid-desktop-11{
+    width: 91.67%;
+    padding: 15px;
+}
+.wb-grid-desktop-12{
+    width: 100%;
+    padding: 15px;
+}
+
+@media screen and (max-width: 991px) {
+    .wb-grid-tablet-1{
+        width: 8.33%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-2{
+        width: 16.67%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-3{
+        width: 25%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-4{
+        width: 33.33%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-5{
+        width: 41.67%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-6{
+        width: 50%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-7{
+        width: 58.33%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-8{
+        width: 66.67%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-9{
+        width: 75%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-10{
+        width: 83.33%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-11{
+        width: 91.67%;
+        padding: 15px;
+    }
+    .wb-grid-tablet-12{
+        width: 100%;
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .wb-grid-mobile-1{
+        width: 8.33%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-2{
+        width: 16.67%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-3{
+        width: 25%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-4{
+        width: 33.33%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-5{
+        width: 41.67%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-6{
+        width: 50%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-7{
+        width: 58.33%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-8{
+        width: 66.67%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-9{
+        width: 75%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-10{
+        width: 83.33%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-11{
+        width: 91.67%;
+        padding: 15px;
+    }
+    .wb-grid-mobile-12{
+        width: 100%;
+        padding: 15px;
+    }
+}

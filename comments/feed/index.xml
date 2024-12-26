@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	Sivuston Iloiset hampaat kommentit	</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
+	<description>Laadukasta perushammashoitoa Muhoksella</description>
+	<lastBuildDate>Fri, 12 Jan 2024 08:13:41 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.7.1</generator>
+	<item>
+		<title>
+		WordPress-kommentoija on kommentoinut artikkelia Moikka maailma!		</title>
+		<link>./../../moikka-maailma/index.html#comment-1</link>
+
+		<dc:creator><![CDATA[WordPress-kommentoija]]></dc:creator>
+		<pubDate>Fri, 12 Jan 2024 08:13:41 +0000</pubDate>
+		<guid isPermaLink="false">./../../index.html?p=1#comment-1</guid>
+
+					<description><![CDATA[Hei, tämä on kommentti.
+Poistaaksesi kommentin, kirjaudu sisään ja lue artikkelin kommentit. Jokaisen kommentin kohdalla on linkki, josta voit halutessasi muokata tai poistaa kommentin.
+Kommentoijien avatarit tulevat &lt;a href=&quot;https://fi.gravatar.com/&quot;&gt;Gravatarista&lt;/a&gt;.]]></description>
+			<content:encoded><![CDATA[<p>Hei, tämä on kommentti.<br />
+Poistaaksesi kommentin, kirjaudu sisään ja lue artikkelin kommentit. Jokaisen kommentin kohdalla on linkki, josta voit halutessasi muokata tai poistaa kommentin.<br />
+Kommentoijien avatarit tulevat <a href="https://fi.gravatar.com/">Gravatarista</a>.</p>
+]]></content:encoded>
+		
+			</item>
+	</channel>
+</rss>

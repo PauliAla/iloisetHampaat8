@@ -1,0 +1,96 @@
+.icon{
+  position: relative;
+}
+.icon:after {
+    content: '';
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    width: 20px;
+    height: 18px;
+    display: inline-block;
+    background-image: url('./../../img/wb-icon.png');
+    background-size: cover;
+}
+.wb-admin-dashboard-wrapper {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 0;
+}
+.wb-admin-dashboard-top h4 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: 'Inter';
+    margin-bottom: 30px;
+}
+.wb-admin-dashboard-top h4 svg {
+    margin-right: 10px;
+}
+.wb-admin-dashboard-tabs {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 100%;
+	background: #f4f4f4;
+	border: 1px solid #f1f1f1;
+}
+.input {
+  position: absolute;
+  opacity: 0;
+}
+.label {
+  width: 100%;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  color: #333;
+  transition: background 0.1s, color 0.1s;
+}
+.label:hover {
+  background: #d8d8d8;
+}
+.label:active {
+  background: #ccc;
+}
+.input:focus + .label {
+  z-index: 1;
+}
+.input:checked + .label {
+	background-color: #003C44;
+	color: #fff;
+}
+@media (min-width: 600px) {
+  .label {
+    width: auto;
+  }
+}
+.panel {
+  display: none;
+  padding: 20px 30px 30px;
+  background: #fff;
+}
+@media (min-width: 600px) {
+  .panel {
+    order: 99;
+  }
+}
+.input:checked + .label + .panel {
+  display: block;
+}
+
+
+.elementor-widget.your-widget-class .elementor-widget-container::before {
+  content: 'gg';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  right: 0;
+  top: 0;
+  display: inline-block;
+  margin-right: 10px; /* Adjust as needed */
+}
